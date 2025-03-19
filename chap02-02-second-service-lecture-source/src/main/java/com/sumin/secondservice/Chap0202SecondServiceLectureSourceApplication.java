@@ -1,4 +1,4 @@
-package com.sumin.eurekaclient;
+package com.sumin.secondservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Chap0102EurekaClientLectureSourceApplication {
+public class Chap0202SecondServiceLectureSourceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Chap0102EurekaClientLectureSourceApplication.class, args);
+        SpringApplication.run(Chap0202SecondServiceLectureSourceApplication.class, args);
     }
 
 }
