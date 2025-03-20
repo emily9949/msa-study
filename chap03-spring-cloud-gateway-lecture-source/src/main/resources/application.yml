@@ -14,6 +14,8 @@ spring:
              - Path=/first-service/**
            filters:
              - RewritePath=/first-service/(?<segment>.*), /$\{segment}
+             - AddRequestHeader=first-request, first-request-header
+             - AddResponseHeader=first-response, first-response-header
 
          - id: 2nd-service-get
 #           uri: http://localhost:57609/
